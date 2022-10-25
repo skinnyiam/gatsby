@@ -5,6 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+    /* Your site config here */
+    plugins: [
+        'gatsby-plugin-postcss',
+        // ...
+    ],
+    siteMetadata: {
+        title: "learnGatsby",
+        description: "simple guitar website",
+    }
 }
